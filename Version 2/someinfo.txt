@@ -26,6 +26,6 @@ Font size
 
 Download both the original English version and the translated version of the blog as .txt files.
 
-Display related images (up to 5) by searching for images using the blog topic via SerpAPI’s image search.
+Display related images by searching for images using the blog topic via SerpAPI’s image search.
 
 Show related blog title suggestions with links from Google Search.
