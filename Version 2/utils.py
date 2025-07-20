@@ -9,14 +9,10 @@ import json
 import datetime
 import os
 
-# -----------------------------
-# ✅ API Key Configuration
-# -----------------------------
+
 genai.configure(api_key=google_gemini_api_key)
 
-# -----------------------------
-# ✅ Restricted Topics
-# -----------------------------
+
 RESTRICTED_TOPICS = [
     "sexual content", "sex", "rape", "harassment", "porn", "pornography",
     "sexual assault", "sexual violence", "nudity", "explicit content",
@@ -29,9 +25,6 @@ def contains_restricted_content(text):
     text_lower = text.lower()
     return any(topic in text_lower for topic in RESTRICTED_TOPICS)
 
-# -----------------------------
-# ✅ Gemini Configuration
-# -----------------------------
 generation_config = {
     "temperature": 0.9,
     "top_p": 1,
@@ -52,9 +45,7 @@ model = genai.GenerativeModel(
     safety_settings=safety_settings,
 )
 
-# -----------------------------
-# ✅ Language Localization
-# -----------------------------
+
 LANGUAGES = {
     "en": {
         "dashboard": "Dashboard",
@@ -82,9 +73,7 @@ LANGUAGES = {
 def t(key):
     return LANGUAGES["en"].get(key, key)
 
-# -----------------------------
-# ✅ Search Titles from Web
-# -----------------------------
+
 def fetch_title_links(query, num_results=5):
     params = {
         "engine": "google",
@@ -120,9 +109,6 @@ def fetch_images(query, num_images=2):
     except:
         return []
 
-# -----------------------------
-# ✅ UI Setup
-# -----------------------------
 st.set_page_config(page_title="BlogWiz - AI Blog Assistant", layout="wide")
 st.title("🧙‍♂️ BlogWiz: Your AI Writing Companion")
 st.write("Create blogs with AI — but your creativity makes it magical!")
