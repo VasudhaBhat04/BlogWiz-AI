@@ -1,0 +1,2 @@
+google_gemini_api_key = "AIzaSyABIbWsgke1_idRt5XdMZNYimhk-urfbzg"
+serpapi_key = "c69eda8990eaecd45d583c730edad11d8f9539fe782394b23c594b0336131181"
