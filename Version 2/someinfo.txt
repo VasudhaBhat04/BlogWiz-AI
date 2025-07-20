@@ -1,1 +1,31 @@
+“BlogWiz: Your AI Writing Companion” is a web-based tool that allows users to:
 
+Generate AI-written blog posts based on:
+
+A custom title
+
+Keywords (used to guide the content)
+
+Optional blog structure
+
+Chosen tone/style (e.g., Casual, Professional)
+
+Chosen font style and size
+
+A selected word count
+
+Translate the generated blog into Hindi or Kannada (based on user selection).
+
+Highlight keywords in the output blog by underlining and bolding them.
+
+Customize appearance of the blog by selecting:
+
+Font family (Arial, Poppins, etc.)
+
+Font size
+
+Download both the original English version and the translated version of the blog as .txt files.
+
+Display related images (up to 5) by searching for images using the blog topic via SerpAPI’s image search.
+
+Show related blog title suggestions with links from Google Search.
