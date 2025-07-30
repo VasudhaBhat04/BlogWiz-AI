@@ -1,1 +1,20 @@
-This project, titled "BlogWiz AI: A Blog Assistant", was developed as part of an academic mini project for the academic year 2024–2025, aimed at simplifying blog creation through automation and multilingual support. BlogWiz generates complete blog content based on user inputs such as title, keywords, tone, content length etc;. It supports English, Hindi, and Kannada, and offers features like font customization, keyword highlighting, and downloadable content in .txt format. Integrated with SerpAPI, the assistant fetches relevant images and  also includes suggested reads with direct links. With a clean and intuitive user interface, this project demonstrates seamless blog generation by combining multiple tools for efficient and interactive multilingual content creation.
+# 📝 BlogWiz AI: A Blog Assistant
+
+**BlogWiz AI** is an intelligent, multilingual blog generation assistant developed as part of an academic mini project (2024–2025). It empowers users to create fully structured blogs using AI, supporting customization options such as tone, content length, fonts, keyword emphasis, and multilingual generation (English, Hindi, Kannada). 
+
+With image fetching via SerpAPI and suggested article recommendations, BlogWiz makes the content creation process intuitive, efficient, and interactive.
+
+---
+
+## 🌟 Features
+
+- ✅ **AI-powered blog content generation** using Gemini Pro (Google Generative AI)
+- 🌐 **Multilingual support**: English, Hindi, Kannada
+- ✨ **User controls** for:
+  - Blog title, tone (formal, casual, etc.), keywords, and content length
+  - Font style and size customization
+- 🔍 **Keyword highlighting** in the output
+- 🖼️ **Image generation** using **SerpAPI** for relevant visuals
+- 🔗 **Suggested reads** with direct article links
+- 💾 **Download blog** content as `.txt`
+- 🎨 Clean, responsive, and user-friendly UI
